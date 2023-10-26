@@ -16,5 +16,5 @@ The app is not production ready and it lacks a lot of necessary components for i
 
 ### Screenshots 
 
-![Simulator Screenshot - iPhone 15 Pro - 2023-10-26 at 12 43 48](https://github.com/4omar9/FetchCodingChallenge/assets/6820757/5d0f2218-de86-4a50-87ad-a7cde656042f)
-![Simulator Screenshot - iPhone 15 Pro - 2023-10-26 at 12 43 50](https://github.com/4omar9/FetchCodingChallenge/assets/6820757/07bcaf6f-9b9e-4aba-9025-83332607c85a)
+![Simulator Screenshot - iPhone 15 Pro - 2023-10-26 at 12 43 48](https://github.com/4omar9/FetchCodingChallenge/assets/6820757/e42947db-c67b-4b8e-941a-6544259966c5)
+![Simulator Screenshot - iPhone 15 Pro - 2023-10-26 at 12 43 50](https://github.com/4omar9/FetchCodingChallenge/assets/6820757/795d21bd-2690-424d-a714-1ab7add933a7)
