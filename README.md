@@ -4,8 +4,8 @@ This project is a coding challenge done for an interview process;
 
 It is a SwiftUI app integration with The MealDB API [https://themealdb.com/api.php]
 
-Page 1: Meals list.
-Page 2: Meal Details.
+- Page 1: Meals list.
+- Page 2: Meal Details.
 
 The app is not production ready and it lacks a lot of necessary components for it to be, such as:
 - Error handling.
