@@ -29,10 +29,7 @@ struct RecipesView: View {
             .navigationTitle("Recipes")
         }
         .task {
-            await viewModel.fetchMeals()
-        }
-        .refreshable {
-            await viewModel.fetchMeals()
+            await viewModel.fetchRecipes()
         }
     }
 }

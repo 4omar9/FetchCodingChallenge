@@ -9,15 +9,14 @@ extension RecipesView {
             self.recipeService = recipeService
         }
 
-        func fetchMeals() async {
+        func fetchRecipes() async {
             do {
                 let recipesResponse = try await recipeService.getRecipesList()
-                await updateMeals(meals: recipesResponse.recipes)
-
+                let sortedList = recipesResponse.recipes.sorted(by: { $0.name < $1.name })
+                await updateMeals(meals: sortedList)
             } catch {
-                print("Show error state")
+                print("Handle error state")
             }
-
         }
 
         @MainActor

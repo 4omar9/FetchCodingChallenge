@@ -16,7 +16,6 @@ struct RecipeDetailsView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     Text("Instructions")
                         .font(.headline)
-
                     Text(viewModel.recipeDetails.instructions)
                         .font(.body)
                     Divider()

@@ -2,8 +2,10 @@ import Foundation
 
 extension RecipeDetailsView {
     final class ViewModel: ObservableObject {
+
         @Published var recipeDetails: RecipeDetails
         private let recipeService: RecipeService
+
         init(
             recipe: Recipe,
             recipeService: RecipeService = RecipeService()
@@ -17,7 +19,7 @@ extension RecipeDetailsView {
                 let result = try await recipeService.getRecipeDetails(with: recipeDetails.id)
                 await updateRecipeDetails(recipeDetails: result.recipes[0])
             } catch {
-                print("Show error state")
+                print("Handle error")
             }
         }
 
