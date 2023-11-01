@@ -20,6 +20,21 @@
 		070524332AEA106500E56A4D /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524322AEA106500E56A4D /* RecipeService.swift */; };
 		070524352AEA108F00E56A4D /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524342AEA108F00E56A4D /* RecipeDetails.swift */; };
 		0780EFCD2AEA11CC00775AE6 /* RecipeDetailsView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780EFCC2AEA11CC00775AE6 /* RecipeDetailsView+ViewModel.swift */; };
+		0780EFD72AEB4AFC00775AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780EFD62AEB4AFC00775AE6 /* ContentView.swift */; };
+		0780EFD92AEB4AFE00775AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0780EFD82AEB4AFE00775AE6 /* Assets.xcassets */; };
+		0780EFDC2AEB4AFE00775AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0780EFDB2AEB4AFE00775AE6 /* Preview Assets.xcassets */; };
+		0780EFE62AEB4AFE00775AE6 /* RecipeWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780EFE52AEB4AFE00775AE6 /* RecipeWatch_Watch_AppTests.swift */; };
+		0780EFF02AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780EFEF2AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITests.swift */; };
+		0780EFF22AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780EFF12AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITestsLaunchTests.swift */; };
+		0780EFF52AEB4AFE00775AE6 /* RecipeWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0780EFD22AEB4AFC00775AE6 /* RecipeWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0780F0002AEB4BAA00775AE6 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524322AEA106500E56A4D /* RecipeService.swift */; };
+		0780F0012AEB4BAA00775AE6 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524022AE9FC2F00E56A4D /* RecipesView.swift */; };
+		0780F0022AEB4BAA00775AE6 /* FetchCodingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524002AE9FC2F00E56A4D /* FetchCodingChallengeApp.swift */; };
+		0780F0032AEB4BAA00775AE6 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0705242C2AE9FF6700E56A4D /* Recipe.swift */; };
+		0780F0042AEB4BAA00775AE6 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524342AEA108F00E56A4D /* RecipeDetails.swift */; };
+		0780F0052AEB4BAA00775AE6 /* RecipesView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0705242A2AE9FE9700E56A4D /* RecipesView+ViewModel.swift */; };
+		0780F0062AEB4BAA00775AE6 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070524302AEA0D7900E56A4D /* RecipeDetailsView.swift */; };
+		0780F0072AEB4BAA00775AE6 /* RecipeDetailsView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780EFCC2AEA11CC00775AE6 /* RecipeDetailsView+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +52,42 @@
 			remoteGlobalIDString = 070523FC2AE9FC2F00E56A4D;
 			remoteInfo = "Fetch Coding Challenge";
 		};
+		0780EFE22AEB4AFE00775AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070523F52AE9FC2F00E56A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0780EFD12AEB4AFC00775AE6;
+			remoteInfo = "RecipeWatch Watch App";
+		};
+		0780EFEC2AEB4AFE00775AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070523F52AE9FC2F00E56A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0780EFD12AEB4AFC00775AE6;
+			remoteInfo = "RecipeWatch Watch App";
+		};
+		0780EFF32AEB4AFE00775AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070523F52AE9FC2F00E56A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0780EFD12AEB4AFC00775AE6;
+			remoteInfo = "RecipeWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0780EFF62AEB4AFE00775AE6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0780EFF52AEB4AFE00775AE6 /* RecipeWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		070523FD2AE9FC2F00E56A4D /* Fetch Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +106,15 @@
 		070524322AEA106500E56A4D /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
 		070524342AEA108F00E56A4D /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		0780EFCC2AEA11CC00775AE6 /* RecipeDetailsView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecipeDetailsView+ViewModel.swift"; sourceTree = "<group>"; };
+		0780EFD22AEB4AFC00775AE6 /* RecipeWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RecipeWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0780EFD62AEB4AFC00775AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0780EFD82AEB4AFE00775AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0780EFDB2AEB4AFE00775AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0780EFE12AEB4AFE00775AE6 /* RecipeWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecipeWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0780EFE52AEB4AFE00775AE6 /* RecipeWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		0780EFEB2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecipeWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0780EFEF2AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		0780EFF12AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +139,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0780EFCF2AEB4AFC00775AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFDE2AEB4AFE00775AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFE82AEB4AFE00775AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +169,9 @@
 				070523FF2AE9FC2F00E56A4D /* Fetch Coding Challenge */,
 				070524102AE9FC3000E56A4D /* Fetch Coding ChallengeTests */,
 				0705241A2AE9FC3000E56A4D /* Fetch Coding ChallengeUITests */,
+				0780EFD32AEB4AFC00775AE6 /* RecipeWatch Watch App */,
+				0780EFE42AEB4AFE00775AE6 /* RecipeWatch Watch AppTests */,
+				0780EFEE2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests */,
 				070523FE2AE9FC2F00E56A4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +182,9 @@
 				070523FD2AE9FC2F00E56A4D /* Fetch Coding Challenge.app */,
 				0705240D2AE9FC3000E56A4D /* Fetch Coding ChallengeTests.xctest */,
 				070524172AE9FC3000E56A4D /* Fetch Coding ChallengeUITests.xctest */,
+				0780EFD22AEB4AFC00775AE6 /* RecipeWatch Watch App.app */,
+				0780EFE12AEB4AFE00775AE6 /* RecipeWatch Watch AppTests.xctest */,
+				0780EFEB2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +263,41 @@
 			path = RecipeDetailsView;
 			sourceTree = "<group>";
 		};
+		0780EFD32AEB4AFC00775AE6 /* RecipeWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0780EFD62AEB4AFC00775AE6 /* ContentView.swift */,
+				0780EFD82AEB4AFE00775AE6 /* Assets.xcassets */,
+				0780EFDA2AEB4AFE00775AE6 /* Preview Content */,
+			);
+			path = "RecipeWatch Watch App";
+			sourceTree = "<group>";
+		};
+		0780EFDA2AEB4AFE00775AE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0780EFDB2AEB4AFE00775AE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0780EFE42AEB4AFE00775AE6 /* RecipeWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0780EFE52AEB4AFE00775AE6 /* RecipeWatch_Watch_AppTests.swift */,
+			);
+			path = "RecipeWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0780EFEE2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0780EFEF2AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITests.swift */,
+				0780EFF12AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "RecipeWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,10 +308,12 @@
 				070523F92AE9FC2F00E56A4D /* Sources */,
 				070523FA2AE9FC2F00E56A4D /* Frameworks */,
 				070523FB2AE9FC2F00E56A4D /* Resources */,
+				0780EFF62AEB4AFE00775AE6 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0780EFF42AEB4AFE00775AE6 /* PBXTargetDependency */,
 			);
 			name = "Fetch Coding Challenge";
 			productName = "Fetch Coding Challenge";
@@ -233,6 +356,59 @@
 			productReference = 070524172AE9FC3000E56A4D /* Fetch Coding ChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0780EFD12AEB4AFC00775AE6 /* RecipeWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0780EFFD2AEB4AFE00775AE6 /* Build configuration list for PBXNativeTarget "RecipeWatch Watch App" */;
+			buildPhases = (
+				0780EFCE2AEB4AFC00775AE6 /* Sources */,
+				0780EFCF2AEB4AFC00775AE6 /* Frameworks */,
+				0780EFD02AEB4AFC00775AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecipeWatch Watch App";
+			productName = "RecipeWatch Watch App";
+			productReference = 0780EFD22AEB4AFC00775AE6 /* RecipeWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0780EFE02AEB4AFE00775AE6 /* RecipeWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0780EFFE2AEB4AFE00775AE6 /* Build configuration list for PBXNativeTarget "RecipeWatch Watch AppTests" */;
+			buildPhases = (
+				0780EFDD2AEB4AFE00775AE6 /* Sources */,
+				0780EFDE2AEB4AFE00775AE6 /* Frameworks */,
+				0780EFDF2AEB4AFE00775AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0780EFE32AEB4AFE00775AE6 /* PBXTargetDependency */,
+			);
+			name = "RecipeWatch Watch AppTests";
+			productName = "RecipeWatch Watch AppTests";
+			productReference = 0780EFE12AEB4AFE00775AE6 /* RecipeWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0780EFEA2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0780EFFF2AEB4AFE00775AE6 /* Build configuration list for PBXNativeTarget "RecipeWatch Watch AppUITests" */;
+			buildPhases = (
+				0780EFE72AEB4AFE00775AE6 /* Sources */,
+				0780EFE82AEB4AFE00775AE6 /* Frameworks */,
+				0780EFE92AEB4AFE00775AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0780EFED2AEB4AFE00775AE6 /* PBXTargetDependency */,
+			);
+			name = "RecipeWatch Watch AppUITests";
+			productName = "RecipeWatch Watch AppUITests";
+			productReference = 0780EFEB2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,6 +430,17 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 070523FC2AE9FC2F00E56A4D;
 					};
+					0780EFD12AEB4AFC00775AE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0780EFE02AEB4AFE00775AE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0780EFD12AEB4AFC00775AE6;
+					};
+					0780EFEA2AEB4AFE00775AE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0780EFD12AEB4AFC00775AE6;
+					};
 				};
 			};
 			buildConfigurationList = 070523F82AE9FC2F00E56A4D /* Build configuration list for PBXProject "Fetch Coding Challenge" */;
@@ -272,6 +459,9 @@
 				070523FC2AE9FC2F00E56A4D /* Fetch Coding Challenge */,
 				0705240C2AE9FC3000E56A4D /* Fetch Coding ChallengeTests */,
 				070524162AE9FC3000E56A4D /* Fetch Coding ChallengeUITests */,
+				0780EFD12AEB4AFC00775AE6 /* RecipeWatch Watch App */,
+				0780EFE02AEB4AFE00775AE6 /* RecipeWatch Watch AppTests */,
+				0780EFEA2AEB4AFE00775AE6 /* RecipeWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +484,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		070524152AE9FC3000E56A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFD02AEB4AFC00775AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0780EFDC2AEB4AFE00775AE6 /* Preview Assets.xcassets in Resources */,
+				0780EFD92AEB4AFE00775AE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFDF2AEB4AFE00775AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFE92AEB4AFE00775AE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,6 +548,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0780EFCE2AEB4AFC00775AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0780F0042AEB4BAA00775AE6 /* RecipeDetails.swift in Sources */,
+				0780F0052AEB4BAA00775AE6 /* RecipesView+ViewModel.swift in Sources */,
+				0780EFD72AEB4AFC00775AE6 /* ContentView.swift in Sources */,
+				0780F0062AEB4BAA00775AE6 /* RecipeDetailsView.swift in Sources */,
+				0780F0012AEB4BAA00775AE6 /* RecipesView.swift in Sources */,
+				0780F0022AEB4BAA00775AE6 /* FetchCodingChallengeApp.swift in Sources */,
+				0780F0002AEB4BAA00775AE6 /* RecipeService.swift in Sources */,
+				0780F0072AEB4BAA00775AE6 /* RecipeDetailsView+ViewModel.swift in Sources */,
+				0780F0032AEB4BAA00775AE6 /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFDD2AEB4AFE00775AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0780EFE62AEB4AFE00775AE6 /* RecipeWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0780EFE72AEB4AFE00775AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0780EFF22AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				0780EFF02AEB4AFE00775AE6 /* RecipeWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -347,6 +593,21 @@
 			isa = PBXTargetDependency;
 			target = 070523FC2AE9FC2F00E56A4D /* Fetch Coding Challenge */;
 			targetProxy = 070524182AE9FC3000E56A4D /* PBXContainerItemProxy */;
+		};
+		0780EFE32AEB4AFE00775AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0780EFD12AEB4AFC00775AE6 /* RecipeWatch Watch App */;
+			targetProxy = 0780EFE22AEB4AFE00775AE6 /* PBXContainerItemProxy */;
+		};
+		0780EFED2AEB4AFE00775AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0780EFD12AEB4AFC00775AE6 /* RecipeWatch Watch App */;
+			targetProxy = 0780EFEC2AEB4AFE00775AE6 /* PBXContainerItemProxy */;
+		};
+		0780EFF42AEB4AFE00775AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0780EFD12AEB4AFC00775AE6 /* RecipeWatch Watch App */;
+			targetProxy = 0780EFF32AEB4AFE00775AE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,6 +734,7 @@
 		070524222AE9FC3000E56A4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +764,7 @@
 		070524232AE9FC3000E56A4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +867,150 @@
 			};
 			name = Release;
 		};
+		0780EFF72AEB4AFE00775AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P78RKU833J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RecipeWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "omar.Fetch-Coding-Challenge";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omar.Fetch-Coding-Challenge.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		0780EFF82AEB4AFE00775AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P78RKU833J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RecipeWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "omar.Fetch-Coding-Challenge";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omar.Fetch-Coding-Challenge.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		0780EFF92AEB4AFE00775AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78RKU833J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omar.RecipeWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecipeWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		0780EFFA2AEB4AFE00775AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78RKU833J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omar.RecipeWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecipeWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		0780EFFB2AEB4AFE00775AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78RKU833J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omar.RecipeWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RecipeWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		0780EFFC2AEB4AFE00775AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P78RKU833J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omar.RecipeWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RecipeWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -639,6 +1046,33 @@
 			buildConfigurations = (
 				070524282AE9FC3000E56A4D /* Debug */,
 				070524292AE9FC3000E56A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0780EFFD2AEB4AFE00775AE6 /* Build configuration list for PBXNativeTarget "RecipeWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0780EFF72AEB4AFE00775AE6 /* Debug */,
+				0780EFF82AEB4AFE00775AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0780EFFE2AEB4AFE00775AE6 /* Build configuration list for PBXNativeTarget "RecipeWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0780EFF92AEB4AFE00775AE6 /* Debug */,
+				0780EFFA2AEB4AFE00775AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0780EFFF2AEB4AFE00775AE6 /* Build configuration list for PBXNativeTarget "RecipeWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0780EFFB2AEB4AFE00775AE6 /* Debug */,
+				0780EFFC2AEB4AFE00775AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 import Foundation
 
 extension RecipeDetailsView {
-    final class ViewModel: ObservableObject {
+    @Observable final class ViewModel {
 
-        @Published var recipeDetails: RecipeDetails
+        var recipeDetails: RecipeDetails
         private let recipeService: RecipeService
 
         init(

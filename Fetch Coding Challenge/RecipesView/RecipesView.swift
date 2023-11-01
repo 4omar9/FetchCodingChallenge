@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct RecipesView: View {
-    @StateObject var viewModel: ViewModel = .init()
+    let viewModel: ViewModel = .init()
 
     var body: some View {
         NavigationStack {
@@ -13,7 +13,14 @@ struct RecipesView: View {
                         } placeholder: {
                             ProgressView()
                         }
+#if os(iOS)
+
                         .frame(width: 100, height: 100)
+#endif
+                        #if os(watchOS)
+                        .frame(width: 40, height: 40)
+                        #endif
+
                         .background(Color.gray)
                         .clipShape(Circle())
 
@@ -22,7 +29,10 @@ struct RecipesView: View {
                     }
                 }
             }
+#if os(iOS)
             .listStyle(.inset)
+#endif
+
             .navigationDestination(for: Recipe.self) { element in
                 RecipeDetailsView(viewModel: .init(recipe: element))
             }

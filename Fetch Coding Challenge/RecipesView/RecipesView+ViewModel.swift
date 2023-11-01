@@ -1,8 +1,8 @@
 import Foundation
 
 extension RecipesView {
-    final class ViewModel: ObservableObject {
-        @Published var recipes: [Recipe] = []
+    @Observable class ViewModel {
+        var recipes: [Recipe] = []
         private let recipeService: RecipeService
 
         init(recipeService: RecipeService = RecipeService()) {

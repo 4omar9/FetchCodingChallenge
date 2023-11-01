@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct RecipeDetailsView: View {
-    @StateObject var viewModel: ViewModel
+    let viewModel: ViewModel
 
     var body: some View {
         ScrollView {
@@ -13,6 +13,10 @@ struct RecipeDetailsView: View {
                 } placeholder: {
                     ProgressView()
                 }
+                #if os(watchOS)
+                .frame(minWidth: 0, maxHeight: 70)
+                .clipShape(Circle())
+                #endif
                 VStack(alignment: .leading, spacing: 16) {
                     Text("Instructions")
                         .font(.headline)
