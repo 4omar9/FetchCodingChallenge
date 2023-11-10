@@ -6,13 +6,7 @@ struct RecipeDetailsView: View {
     var body: some View {
         ScrollView {
             VStack {
-                AsyncImage(url: viewModel.recipeDetails.thumb) { image in
-                    image
-                        .resizable()
-                        .scaledToFit()
-                } placeholder: {
-                    ProgressView()
-                }
+                CachedImage(url: viewModel.recipeDetails.thumb)
                 #if os(watchOS)
                 .frame(minWidth: 0, maxHeight: 70)
                 .clipShape(Circle())

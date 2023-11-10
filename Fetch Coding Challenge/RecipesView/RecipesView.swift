@@ -8,11 +8,7 @@ struct RecipesView: View {
             List(viewModel.recipes) { element in
                 NavigationLink(value: element) {
                     HStack {
-                        AsyncImage(url: element.thumb) { image in
-                            image.resizable()
-                        } placeholder: {
-                            ProgressView()
-                        }
+                        CachedImage(url: element.thumb)
 #if os(iOS)
 
                         .frame(width: 100, height: 100)
